@@ -25,8 +25,9 @@ def Terminal():
   print("                           ")  
   terminal = int(input("Enter your choice: "))
   if terminal == int(1):
-    for i in tqdm(range(20)):
+    for i in tqdm(range(50)):
       time.sleep(0.5)
+  print("Finished")
 
     
 def ScriptedPassword():
@@ -63,4 +64,5 @@ elif Username == "Jeremy.Dell.Conoger":
   print("Error, student username detected, please go back to you're class please")
 else:
   print("Invalid username")
+
 
